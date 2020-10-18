@@ -23,7 +23,7 @@ classdef processData
     methods
         
         % Constructor
-        function obj = processEMG(matData)
+        function obj = processData(matData)
             
             if nargin < 1
                 matData = obj.uploadData();
